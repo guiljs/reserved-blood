@@ -31,14 +31,14 @@ export const Content = styled.div`
 
     a {
       font-size: 20px;
-      color: #f4ede8;
+      color: #333;
       display: block;
       margin-top: 18px;
       text-decoration: none;
       transition: 0.5s;
 
       &:hover {
-        color: ${shade(0.2, '#F4EDE8')};
+        color: ${shade(0.4, '#333')};
       }
 
       &:focus {
@@ -65,6 +65,7 @@ export const Content = styled.div`
     }
     svg {
       margin-right: 10px;
+      margin-left: 16px;
     }
   }
 `;
